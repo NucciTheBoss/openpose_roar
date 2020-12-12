@@ -23,7 +23,7 @@ From: nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
         software-properties-common unzip
 
     ## Install required python packages
-    pip3 setuptools
+    pip3 install setuptools
     pip3 install numpy opencv-python
 
     ## Install neccessary Nvidia drivers
