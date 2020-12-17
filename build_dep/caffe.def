@@ -28,7 +28,7 @@ From: nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
         build-essential libsnappy-dev \
         libleveldb-dev libhdf5-serial-dev \
         opencl-headers ocl-icd-opencl-dev \
-        libviennacl-dev gfortran
+        libviennacl-dev gfortran curl
 
     ## Install required python packages
     pip3 install --upgrade pip
